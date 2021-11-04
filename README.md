@@ -6,6 +6,14 @@ webpack局部:4.29.6
 webpack-cli全局:4.9.1
 webpack-cli局部:3.2.3
 
+# 查看webpack版本
+```
+//1.查看全局版本号
+webpack -v
+//2.查看局部版本好
+npx webpack -v
+```
+
 # Tips
 [参考链接]https://segmentfault.com/a/1190000014159004?utm_source=sf-similar-article
 1.webpack可以全局安装或者本地安装。官网上不推荐全局安装，因为这会将你项目中的 webpack 锁定到指定版本，并且在使用不同的 webpack 版本的项目中，可能会导致构建失败
@@ -29,3 +37,9 @@ node_modules/.bin/webpack
 ```
 npm start
 ```
+
+# 四：npx
+```
+npx webpack
+```
+
