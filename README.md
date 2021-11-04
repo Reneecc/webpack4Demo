@@ -16,3 +16,16 @@ webpack-cli局部:3.2.3
 ```
 node_modules/.bin/webpack app/main.js -o common/index.js
 ```
+
+# 二：webpack.config.js 使用命令
+```
+//全局情况下
+webpack
+//非全局安装
+node_modules/.bin/webpack
+```
+
+# 三：脚本命令
+```
+npm start
+```
